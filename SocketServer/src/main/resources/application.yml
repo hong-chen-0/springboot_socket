@@ -1,0 +1,7 @@
+server:
+  address: 0.0.0.0
+  port: 8085
+  servlet:
+    context-path: /yblog
+  max-http-header-size: 8192
+
