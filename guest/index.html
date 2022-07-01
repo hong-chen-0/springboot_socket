@@ -21,7 +21,7 @@ var userId = null;
 
 //判断当前浏览器是否支持WebSocket
 if('WebSocket' in window){
-    websocket = new WebSocket("ws://127.0.0.1:8085/yblog/websocket/1");
+    websocket = new WebSocket("ws://192.168.1.82:8085/yblog/websocket/1");
 } else {
     alert("Don't support websocket!")
 }
